@@ -1,7 +1,7 @@
 body {
     text-align: center;
     color: dimgray;
-    background-color: rgb(252, 233, 239);
+    background-color: rgb(253, 253, 243);
 }
 
 #title {
@@ -12,18 +12,20 @@ body {
 }
 
 #livingroom {
-    border: 1px solid rgb(247, 240, 240);
+    border: 1px solidrgb(253, 253, 243);
+    border-radius: 20px;
     margin-bottom: 100px;
     margin-top: 100px;
 }
 
 #eventinfo {
-    background-color: rgba(200, 100, 150, 0.1);
+    border: 10px solid rgba(238, 238, 226, 0.5);
+    border-radius: 10%;
     display: inline-block;
-    width: 300px;
+    width: 250px;
+    height: 200px;
     margin: 76px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px;
 }
 
 span {
@@ -51,10 +53,10 @@ span {
     margin: auto;
     width: 300px;
     height: 300px;
-    border: 3px solid rgba(200, 100, 150, 0.1);
+    border: 10px solid rgba(238, 238, 226, 0.5);
+    border-radius: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
-
-.account {}
